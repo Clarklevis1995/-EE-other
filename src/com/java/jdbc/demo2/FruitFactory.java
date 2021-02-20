@@ -9,6 +9,7 @@ package com.java.jdbc.demo2;
  **/
 public class FruitFactory {
     public static Fruit get(){
-        return new Apple();
+        //return new Apple();
+        return new Banana();
     }
 }
